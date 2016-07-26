@@ -1,0 +1,300 @@
+/*舊有CSS*/
+
+.highlight {
+    background: #FFC;
+    font-weight: bold;
+    margin: 0 1px;
+}
+
+
+/*本次新增css*/
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.GlobalSearch_left {
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 245px;
+    font-size: 16px;
+    background: #ffffff;
+}
+
+.GlobalSearch_right {
+    float: left;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    width: 965px;
+    min-height: 700px;
+    font-size: 18px;
+    background: #ffffff;
+}
+
+
+/*.GlobalSearch_products {
+	background: url(images/products_bule.png) no-repeat 0% 50%;
+}*/
+
+.GlobalSearch_datasheet {
+    background: url(images/datasheet_blue.png) no-repeat 0% 50%;
+}
+
+.GlobalSearch_document {
+    background: url(images/document_bule.png) no-repeat 0% 90%;
+}
+
+.GlobalSearch_news {
+    background: url(images/news_bule.png) no-repeat 0% 80%;
+}
+
+.GlobalSearch_other {
+    background: url(images/other_bule.png) no-repeat 0% 100%;
+}
+
+
+/*GlobalSearch_left選單*/
+
+.GlobalSearch_left span {
+    color: #171C61;
+    font-weight: bold;
+}
+
+.GlobalSearch_left_title {
+    line-height: 30px;
+    color: #c9caca;
+    list-style: none;
+
+}
+
+.GlobalSearch_left #bold {
+    font-weight: 700;
+}
+
+.GlobalSearch_products a,
+.GlobalSearch_document a,
+.GlobalSearch_news a,
+.GlobalSearch_other a,
+.GlobalSearch_datasheet a {
+    list-style: none;
+    padding-left: 16px;
+margin-left: 0.8em;
+ text-decoration: none;
+ position: relative;
+ top: 0.5em;
+ background:#fff;
+ display: block;
+}
+
+.GlobalSearch_content li {
+    padding-left: 10px;
+     margin-left: 1em;
+ border-left: 1px dotted;
+}
+
+.GlobalSearch_content li a {
+    list-style: none;
+    padding-left: 21px;
+     display: block;
+     background: #fff;
+
+}
+
+.GlobalSearch_news a {
+ text-decoration: none;
+ position: relative;
+ top: 0.55em;
+ background:#fff;
+ display: block;
+}
+
+.GlobalSearch_left_title li {
+padding-left: 0.5em;
+ border-bottom: 1px dotted #ccc;
+ 
+  list-style: none;
+  }
+
+.GlobalSearch_left_title a {
+    color: #125287;
+    text-decoration: none;
+        position: relative;
+    top: 1em;
+
+
+}
+
+.GlobalSearch_left_title a:hover {
+    color: #EA5514;
+}
+
+.GlobalSearch_content a {
+    color: #000;
+    text-decoration: none;
+}
+
+.GlobalSearch_left_title img {
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.GlobalSearch_left_content {
+    color: #c9caca;
+    list-style: none;
+}
+
+#A_line {
+    color: #125287;
+    background: url(images/04_right.png) no-repeat 0% 50%;
+}
+
+
+/*GlobalSearch_right選單*/
+
+.GlobalSearch_right_title {
+    color: #3E3A39;
+    line-height: 28px;
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    padding: 0px;
+}
+
+.GlobalSearch_right_title li {
+    width: 140px;
+    height: 40px;
+    float: left;
+}
+
+.GlobalSearch_document span span.second_title,
+.GlobalSearch_datasheet span span.second_title,
+.GlobalSearch_news span span.second_title,
+.GlobalSearch_other span span.second_title {
+    color: #171c61;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.GlobalSearch_right_title li a {
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 40px;
+    color: #FFF;
+    background-color: #727171;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    border-left: 1px solid #efefef;
+}
+
+.GlobalSearch_right_title li a:hover {
+    color: #FFF;
+    background-color: #171C61;
+}
+
+li.nolink {
+    color: #000;
+    top:1em;
+    padding-left: 30px;
+    position: relative;
+}
+
+#Bar {
+    height: 34px;
+    background-color: #fff;
+    color: #171C61;
+    line-height: 32px;
+    border-top: 7px solid #171C61;
+    border-left: 1px solid #c9caca;
+    border-right: 1px solid #c9caca;
+    border-radius: 10px 10px 0 0;
+}
+
+.GlobalSearch_right_title img {
+    padding-right: 6px;
+    vertical-align: middle;
+}
+
+.GlobalSearch_right_content {
+    border: 1px solid #c9caca;
+    padding: 25px 10px 10px 12px;
+}
+
+.GlobalSearch_right_content span a {
+    color: #125287;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 25px;
+    display: inline-block;
+    /*span用*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 900px;
+}
+
+.GlobalSearch_right_content span a:hover {
+    color: #EA5514;
+}
+
+.GlobalSearch_text {
+    color: #000;
+    padding-top: 8px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+/*頁碼*/
+
+.manu {
+    padding: 3px;
+    margin: 20px 3px 3px 3px;
+    text-align: center;
+}
+
+.manu A {
+    padding: 2px 5px;
+    margin: 2px;
+    border: #eee 1px solid;
+    color: #125287;
+    text-decoration: none;
+}
+
+.manu A:hover {
+    border: #999 1px solid;
+    color: #727171;
+}
+
+.manu A:active {
+    border: #999 1px solid;
+    color: #727171;
+}
+
+.manu .current {
+    padding: 2px 5px;
+    font-weight: bold;
+    margin: 2px;
+    border: #125287 1px solid;
+    color: #fff;
+    background-color: #125287;
+}
+
+.manu .disabled {
+    padding: 2px 5px;
+    margin: 2px;
+    border: #eee 1px solid;
+    color: #ddd;
+}
