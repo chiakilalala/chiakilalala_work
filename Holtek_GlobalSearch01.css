@@ -8,6 +8,15 @@
 
 
 /*本次新增css*/
+a#bold.active{
+    color: #ea5514;
+}
+
+li.nolink {
+    color: #000;
+    padding-left: 31.6px;
+    position: relative;
+}
 
 ul {
     padding: 0;
@@ -35,23 +44,23 @@ ul {
 
 
 /*.GlobalSearch_products {
-	background: url(images/products_bule.png) no-repeat 0% 50%;
+    background: url(images/products_bule.png) no-repeat 0% 50%;
 }*/
 
 .GlobalSearch_datasheet {
-    background: url(images/datasheet_blue.png) no-repeat 0% 2%;
+    background: url(images/datasheet_blue.png) no-repeat 0% 50%;
 }
 
 .GlobalSearch_document {
-    background: url(images/document_bule.png) no-repeat 0% 2%;
+    background: url(images/document_bule.png) no-repeat 0% 90%;
 }
 
 .GlobalSearch_news {
-    background: url(images/news_bule.png) no-repeat 0% 45%;
+    background: url(images/news_bule.png) no-repeat 0% 30%;
 }
 
 .GlobalSearch_other {
-    background: url(images/other_bule.png) no-repeat 0% 30%;
+    background: url(images/other_bule.png) no-repeat 0% 50%;
 }
 
 
@@ -60,6 +69,8 @@ ul {
 .GlobalSearch_left span {
     color: #171C61;
     font-weight: bold;
+    position: relative;
+    padding-top: 10px;
 }
 
 .GlobalSearch_left_title {
@@ -72,27 +83,54 @@ ul {
     font-weight: 700;
 }
 
-.GlobalSearch_products a,
+.GlobalSearch_datasheet a,
 .GlobalSearch_document a,
 .GlobalSearch_news a,
+.GlobalSearch_other a
+{
+    padding-left: 10px;
+}
+
+.GlobalSearch_products a,
+.GlobalSearch_document a,
+
 .GlobalSearch_other a,
 .GlobalSearch_datasheet a {
-    list-style: none;
-    padding-left: 25px;
+    /*list-style: none;
+    padding-left: 10px;
+    margin-left: 0.8em;
+    text-decoration: none;
+    position: relative;
+    top: 0.5em;*/
 }
 
 .GlobalSearch_content li {
-    padding-left: 10px;
+    margin-left: 1em;
+    border-left: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
 }
 
 .GlobalSearch_content li a {
     list-style: none;
     padding-left: 21px;
+    display: block;
+}
+
+.GlobalSearch_news a {
+    text-decoration: none;
+    position: relative;
+}
+
+.GlobalSearch_left_title li {
+    list-style: none;
 }
 
 .GlobalSearch_left_title a {
     color: #125287;
     text-decoration: none;
+    position: relative;
+    left: 14px;
 }
 
 .GlobalSearch_left_title a:hover {
@@ -105,7 +143,7 @@ ul {
 }
 
 .GlobalSearch_left_title img {
-    padding-right: 6px;
+    padding-right: 5px;
     vertical-align: middle;
 }
 
@@ -148,6 +186,7 @@ ul {
 
 .GlobalSearch_right_title li a {
     display: block;
+    font-size: 14px;
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
@@ -163,11 +202,6 @@ ul {
 .GlobalSearch_right_title li a:hover {
     color: #FFF;
     background-color: #171C61;
-}
-
-li.nolink {
-    color: #000;
-    padding-left: 30px;
 }
 
 #Bar {
@@ -195,7 +229,8 @@ li.nolink {
     color: #125287;
     font-weight: bold;
     text-decoration: none;
-    padding-left: 25px;
+    padding-bottom: 2px;
+    padding-left: 22px;
     display: inline-block;
     /*span用*/
     overflow: hidden;
@@ -210,17 +245,27 @@ li.nolink {
 
 .GlobalSearch_text {
     color: #000;
-    padding-top: 5px;
     padding-left: 25px;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
-    line-height: 18px;
+    line-height: 19px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+     position:relative;
+    height:2.5em;
+}
+
+.GlobalSearch_text:after {
+   content:"...";
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding: 0 5px;
+
 }
 
 
@@ -230,6 +275,7 @@ li.nolink {
     padding: 3px;
     margin: 20px 3px 3px 3px;
     text-align: center;
+    font-size: 14px;
 }
 
 .manu A {
