@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+<style>	
+ *{
+ 	box-sizing:border-box;
+ }
+ html{
+ 	font-size: 	50%;
+ }
+
+ body{
+ 	margin: 0 auto;
+ 	font-family: 'Nunito', sans-serif;
+  color: #fff;
+  background-color: #ccc;	
+ }
+a {
+  text-decoration: none;
+}
+ section{
+ 	display: table;
+ 	width: 100%;	
+ 	height: 100%;	
+ }
+ section .center{
+ 	display: table-cell;
+  height: 300px;
+  vertical-align: middle;
+  text-align: center;
+ }
+
+.blue{
+	background-color: #809bce;
+}
+.gray{
+	 background-color: #f07d5a;
+}
+button{
+	position: relative;
+	display: inline-block;
+	width: 200px;	
+	height: 60px;	
+	border-radius:50em;
+	margin: 5px;	
+}
+</style>
+<script>
+
+
+
+</script>
+
+</head>
+
+<body>
+<section>
+<div class="center">	
+<button  type="button" class="blue-btn-right blue" id="Find_load" >Find</button>
+
+<button type="button" class="blue-btn-left gray" id="Rese_load">	Rest</button>
+<div id="Message" style="display:none;">
+   <div id="tallContent">	
+
+    <h1><img src="http://i.imgur.com/EATfJf4.gif	" alt="轉動">	</h1>
+   </div>
+	</div>
+		</div>	
+</section>
+<button type="button" class="butn-blue left" id="Find_load" >Find</button>
+    <button type="button" class="butn-red left" id="Reset_load">Reset</button>
+    <div id="domMessage" style="display:none;"> <div id="tallContent" style="cursor: default; display: none;">
+            <h1><img src="images/icon-loading.gif" width="100" height="76" alt=""/></h1>
+        </div> 
+
+</body>
+
+</html>

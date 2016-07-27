@@ -1,0 +1,261 @@
+/*舊有CSS*/
+.butn-blue {
+	display: block;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px 10px;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-shadow: none;
+	border-radius: 5px;
+	background: #171C61;
+}
+.butn-red {
+	display: block;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px 10px;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-shadow: none;
+	border-radius: 5px;
+	background: #727171;
+}
+button:hover {
+	background: #125287;
+	border-color: #125287;
+	color: #fff;
+	font-weight: bold;
+}
+.btn-excle {
+	display: block;
+	width: 25px;
+	height: 25px;
+	border: none;
+	margin: 10px;
+	cursor: pointer;
+	background: url(images/excel.png) no-repeat;
+}
+.File {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 15px;
+}
+/*本次新增css*/
+.left {
+	float: left;
+}
+.btn-excle:hover {
+	display: block;
+	width: 25px;
+	height: 25px;
+	border: none;
+	margin: 10px;
+	cursor: pointer;
+	background: url(images/excel.png) no-repeat;
+}
+.ProductSelector_Search, .ProductSelector_Product {
+	float: left;
+	font-size: 14px;
+	padding-right: 30px;
+	padding-top: 5px;
+}
+/*Search*/
+#search {
+	padding: 5px 0;
+}
+.textinput {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: 1px solid #9e9e9f;
+	border-right: 0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.button {
+	margin: 0 0 0 -10px;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #9e9e9f;
+	border-right: 0px;
+	background: url(images/search.png) no-repeat 50% 50% #125287;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.button:hover {
+	text-decoration: none;
+	background: url(images/search.png) no-repeat 50% 50% #0A91CD;
+}
+	/* Fixes submit button height problem in Firefox */
+	.button::-moz-focus-inner {
+ border: 0;
+}
+.clear {
+	clear: both;
+}
+/*Product Family*/
+.ProductFamily {
+	padding: 5px 0;
+}
+#ProductFamily_text {
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	min-width: 200px;
+	border-radius: 5px 5px;
+}
+/*產品選型*/
+.Product_Search {
+	float: left;
+	clear: both;
+	width: 1138px;
+	font-size: 14px;
+}
+.Product_show {
+	margin: 10px 0;
+}
+.show {
+	padding: 5px 15px 5px 40px;
+	font-size: 14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #9e9e9f;
+	border-right: 0px;
+	background: url(images/eye.png) no-repeat 10% 50% #171C61;
+	border-radius: 5px;
+}
+.show:hover {
+	text-decoration: none;
+	background: url(images/eye.png) no-repeat 10% 50% #0A91CD;
+}
+#Block_wrapper {
+	padding: 5px 0;
+	/*height: 286px;
+	width: 1141px;*/
+	overflow-y: hidden;
+}
+.Block_scrool {
+	width: 2300px;
+	/*overflow-x: auto;*/
+}
+.Block {
+	float: left;
+	width: 163px;
+}
+.Block_title {
+	width: 155px;
+	padding: 5px 0 5px 10px;
+	color: #ffffff;
+	background: #125287;
+}
+.hide {
+	float: right;
+	margin-right: 7px;
+	font-size: 8px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #ffffff;
+	background: #125287;
+	padding: 0 2px;
+}
+.Block_text {
+	width: 163px;
+	height: 246px;
+	overflow: auto;
+	background: #ffffff;
+	border: 1px solid #898989;
+}
+.Block_text p {
+	text-indent: -25px;
+	padding-left: 25px;
+	display: block;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin: 0;
+}
+/*slider_vertical*/
+.Block_slider p {
+	text-indent: -25px;
+	padding-left: 15px;
+	display: block;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin: 0;
+}
+.Block_slider {
+	width: 163px;
+	height: 246px;
+	overflow: auto;
+	background: #ffffff;
+	border: 1px solid #898989;
+	text-align: center;
+}
+.slider_text {
+	padding-top: 5px;
+	color: #125287;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+#amount1, #amount2, #amount3, #amount4, #amount5, #amount6, #amount7 {
+	border: 1px solid #898989;
+	width: 100px;
+	color: #125287;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.slider-vertical_text {
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	position: relative;
+	height: 190px;
+}
+.slider-vertical_text .top {
+	position: absolute;
+}
+.slider-vertical_text .bottom {
+	position: absolute;
+	bottom: 0px;
+}
+.slider-vertical_text span {
+	color: #125287;
+	font-weight: bold;
+	font-size: 14px;
+	padding-right: 5px;
+}
+#slider-vertical1, #slider-vertical2, #slider-vertical3, #slider-vertical4, #slider-vertical5, #slider-vertical6, #slider-vertical7 {
+	float: left;
+}
+/*ProductTable*/
+.ProductTable {
+	padding: 0 0 20px 50px;
+}
